@@ -7,7 +7,7 @@ The project is actively under development, and the codebase will continue to be 
 If you plan to reference or build upon this work, please cite it using the following format:
 
 ```bibtex
-@misc{qin2025fno_mra_diffusion,
+@misc{qin2025fmra,
   title        = {Functional Multi-Reference Alignment: A Framework with Fourier Neural Operator and Bispectrum-Guided Diffusion Posteriors},
   author       = {Zixuan Qin},
   year         = {2025},

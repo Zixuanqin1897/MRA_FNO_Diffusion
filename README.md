@@ -1,6 +1,6 @@
 ## *Functional Multi-Reference Alignment: A Framework with Fourier Neural Operator and Bispectrum-Guided Diffusion Posteriors*
 
-This repository contains the implementation of my ongoing research project: *Functional Multi-Reference Alignment using Fourier Neural Operators and bispectrum-guided diffusion posteriors*. This work is conducted under the supervision of **Prof. Daniel Sanz-Alonso**.
+This repository contains the implementation of my ongoing research project: *Functional Multi-Reference Alignment: A Framework with Fourier Neural Operator and Bispectrum-Guided Diffusion Posteriors*. This work is conducted under the supervision of **Prof. Daniel Sanz-Alonso**.
 
 The project is actively under development, and the codebase will continue to be updated and refined. Please check back regularly for improvements, additional features, and reproducible experiment pipelines.
 

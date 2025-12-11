@@ -1,0 +1,25 @@
+{
+    "data_paths": {
+        "fno_estimations": "fno_results/uniform/fno_n_262144/estimations.npz",
+        "raw_observations_compare": "./data/obs_dataset_uniform_compare_preview.npz",
+        "save_path_compare": "posterior_results_compare.npz",
+        "raw_observations_test": "./data/obs_dataset_uniform_test_preview.npz",
+        "save_path_test": "posterior_results_test.npz"
+    },
+    "model": {
+        "checkpoint": "checkpoints_diffusion/score_model_final.pth",
+        "config_path": "prior_config.json"
+    },
+    "sampling": {
+        "n_steps": 1000,
+        "batch_size": 1,
+        "guidance_scale": 5.0,
+        "num_posterior_samples": 16
+    },
+    "adaptive": {
+        "method": "slope",
+        "freq_range": [1.0, 16.0],
+        "slope_bounds": [4.0, 6.0],
+        "t_bounds": [0.6, 0.05]
+    }
+}

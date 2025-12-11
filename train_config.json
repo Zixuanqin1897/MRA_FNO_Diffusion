@@ -1,0 +1,20 @@
+{
+    "model_params": {
+        "modes": 16,
+        "width": 32
+    },
+    "training_params": {
+        "learning_rate": 0.001,
+        "weight_decay": 1e-4,
+        "epochs": 500,
+        "batch_size": 16,
+        "patience": 30
+    },
+    "data_params": {
+        "path": "./data/obs_dataset_uniform.npz"
+    },
+    "experiment_params": {
+        "results_dir": "fno_results/uniform",
+        "name_prefix": "fno_n" 
+    }
+}

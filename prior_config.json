@@ -1,0 +1,27 @@
+{
+    "data": {
+        "n_epoch_samples": 16384,
+        "n_points": 64,
+        "domain": [-1, 1],
+        "classes": [
+            {"nu": 0.5, "prop": 0.4, "kappa": [1, 20]},
+            {"nu": 1.5, "prop": 0.3, "kappa": [1, 20]},
+            {"nu": 2.5, "prop": 0.3, "kappa": [1, 20]}
+        ]
+    },
+    "model": {
+        "channels": 64,
+        "layers": 8,
+        "L": 64
+    },
+    "diffusion": {
+        "sigma_min": 0.01,
+        "sigma_max": 20.0
+    },
+    "training": {
+        "batch_size": 64,
+        "lr": 0.0005,
+        "epochs": 1000,
+        "save_dir": "./checkpoints_diffusion"
+    }
+}

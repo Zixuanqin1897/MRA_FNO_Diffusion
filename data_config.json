@@ -1,0 +1,25 @@
+{
+    "simulation": {
+        "n_train_signals": 1024,
+        "n_test_signals": 256,
+        "n_observations": 262144,
+        "resolution": 64,
+        "batch_size_gen": 32,
+        "shift_sampler": {
+            "type": "uniform", 
+            "low": -1.0,            
+            "high": 1.0
+        },
+        "save_preview_npz": true
+    },
+    "noise": {
+        "sigma_range": [1.0, 1.0],
+        "length_scale_range": [0.1, 0.1]
+    },
+    "external_true_signals": {
+        "dataset_root": "./data",
+        "train_file": "signal_1024.npz",
+        "test_file":  "signal_256.npz"
+    },
+    "dataset_filename": "obs_dataset_uniform.npz"
+}
